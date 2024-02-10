@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Roboto:wght@400;700;900&display=swap');
+
+:root {
+
+    /*Font Families*/
+    --ff-primary: 'Bungee Shade', sans-serif;
+    --ff-secondary: 'Roboto', sans-serif;
+
+    /*Font Sizes*/ 
+    --fs-small: 14px;
+    --fs-medium: 30px;
+    --fs-large: 45px; 
+    --fs-xlarge: 75px;
+    
+    /*Color Palette*/
+    --primary-clr: #FBFADA;
+    --secondy-clr: #12372A;
+    --accent-clr: #436850;
+}
