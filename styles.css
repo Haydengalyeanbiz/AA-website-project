@@ -6,7 +6,7 @@
     --ff-secondary: 'Roboto', sans-serif;
 
     /*Font Sizes*/ 
-    --fs-small: 14px;
+    --fs-small: 18px;
     --fs-medium: 30px;
     --fs-large: 45px; 
     --fs-xlarge: 75px;
@@ -14,7 +14,7 @@
     /*Color Palette*/
     --primary-clr: #FBFADA;
     --secondy-clr: #12372A;
-    --accent-clr: #436850;
+    --accent-clr: #65451F;
 }
 
 body {
@@ -123,6 +123,7 @@ img {
     height: 300px;
     width: auto;
     border-radius: 12px;
+    border: solid 4px  var(--accent-clr)
 }
 
 /*MISSION*/
@@ -132,7 +133,7 @@ img {
     flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
+    gap: 2rem;
     background-color: var(--secondy-clr);
     padding: 2rem 0;
 }
@@ -149,5 +150,37 @@ img {
 
 .mission img{
     border-radius: 12px;
-    border: solid 2px var(--primary-clr);
+    border: solid 4px var(--accent-clr);
+}
+
+/*TEAMMEMBERS*/
+
+.team {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.team h2 {
+    margin: 0;
+}
+
+.team-content  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.team-img {
+    border: solid 4px var(--accent-clr);
+    border-radius: 12px;
+}
+
+.team-p {
+    text-align: center;
+    max-width: 40%;
+    color: var(--secondy-clr);
 }
