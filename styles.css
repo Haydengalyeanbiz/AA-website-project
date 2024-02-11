@@ -16,3 +16,138 @@
     --secondy-clr: #12372A;
     --accent-clr: #436850;
 }
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--primary-clr);
+}
+
+h1 {
+    font-family: var(--ff-primary);
+    font-size: var(--fs-xlarge);
+    color: var(--secondy-clr);
+}
+
+h2 {
+    font-family: var(--ff-primary);
+    font-size: var(--fs-large);
+    color: var(--secondy-clr);
+}
+
+h3 {
+    font-family: var(--ff-primary);
+    font-size: var(--fs-medium);
+    color: var(--secondy-clr);
+}
+
+p {
+    font-family: var(--ff-secondary);
+    font-size: var(--fs-small);
+    color: var(--secondy-clr);
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: var(--primary-clr);
+    text-decoration: none;
+}
+
+a:visited {
+    color: var(--primary-clr);
+}
+
+img {
+    height: auto;
+    width: 400px;
+}
+
+/* NAVBAR */
+.navbar {
+    position: fixed;
+    top: 0;
+    height: 40px;
+    width: 100dvw;
+    padding: .5rem;
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--secondy-clr);
+} 
+
+.logo {
+    color: var(--primary-clr);
+    font-family: var(--ff-primary);
+}
+
+.navbar-options {
+    margin: 0;
+    width: 25dvw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar-options li {
+    font-family: var(--ff-primary);
+}
+
+/*****************************************INDEX.HTML*****************************************/
+/*MASTHEAD*/
+
+.masthead {
+    margin-top: 56px;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.mast-titles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.masthead h1 {
+    margin: 0;
+}
+
+.mast-titles p {
+    font-size: var(--fs-medium);
+    margin: 0;
+    color: var(--secondy-clr);
+}
+
+.mast-img {
+    height: 300px;
+    width: auto;
+    border-radius: 12px;
+}
+
+/*MISSION*/
+
+.mission {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: var(--secondy-clr);
+    padding: 2rem 0;
+}
+
+.mission-titles {
+    max-width: 40%;
+    text-align: center;
+}
+
+.mission-titles h2, p {
+    color: var(--primary-clr);
+    margin: 0;
+}
+
+.mission img{
+    border-radius: 12px;
+    border: solid 2px var(--primary-clr);
+}
