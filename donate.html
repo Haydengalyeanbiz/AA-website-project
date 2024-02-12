@@ -7,9 +7,10 @@
     <title>Save The Planet</title>
 </head>
 <body>
-    <nav>
-        <a href="#home">STP</a>
-        <ul>
+    <nav id="home" class="navbar">
+        <a class="logo" href="#home">Save The Planet</a>
+        <ul class="navbar-options">
+            <li><a href="index.html">Home</a></li>
             <li><a href="donate.html">Donate</a></li>
             <li><a href="info.html">Info</a></li>
             <li><a href="program.html">Programs</a></li>
@@ -18,27 +19,27 @@
     <form action="" method="post">
         <fieldset>
             <legend>Donate Now</legend>
-            <div>
+            <div class="form-cell">
                 <label for="first">First Name</label>
                 <input id="first" class="inp-text" type="text">
             </div>
-            <div>
+            <div class="form-cell">
                 <label for="last">Last Name</label>
                 <input id="last" class="inp-text" type="text">
             </div>
-            <div>
+            <div class="form-cell">
                 <label for="email">Email</label>
                 <input id="email" class="inp-email" type="email">
             </div>
-            <div>
+            <div class="form-cell">
                 <label for="sign-up">News Letter?</label>
                 <input id="sign-up" class="inp-chek" type="checkbox">
             </div>
-            <div>
+            <div class="form-cell">
                 <label for="comments">Comments</label>
                 <input id="comments" class="inp-area" type="textarea">
             </div>
-            <div>
+            <div class="form-cell">
                 <input class="inp-btn" type="button" value="Submit">
             </div>
         </fieldset>

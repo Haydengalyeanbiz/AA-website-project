@@ -98,7 +98,7 @@ img {
 
 .masthead {
     margin-top: 56px;
-    padding: 1rem 0;
+    padding: 3rem 0;
     display: flex;
     justify-content: space-evenly;
 }
@@ -160,6 +160,7 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 0 0 2rem 0;
 }
 
 .team h2 {
@@ -182,5 +183,70 @@ img {
 .team-p {
     text-align: center;
     max-width: 40%;
-    color: var(--secondy-clr);
+    color: var(--primary-clr);
+    background-color: var(--accent-clr);
+    padding: 1rem;
+    border-radius: 12px;
 }
+
+/*PROJECTS*/
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secondy-clr);
+    flex-wrap: wrap;
+}
+
+.projects h2 {
+    color: var(--primary-clr);
+}
+.project-content {
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.pro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+/* FORM PAGE */
+ form {
+    height: auto;
+    width: 50dvw;
+    margin: auto;
+    padding: 2rem 3rem;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+ }
+
+ fieldset {
+    color: var(--secondy-clr);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ legend {
+    font-family: var(--ff-primary);
+    color: var(--secondy-clr);
+ }
+
+ label  {
+    font-family: var(--ff-primary);
+ }
